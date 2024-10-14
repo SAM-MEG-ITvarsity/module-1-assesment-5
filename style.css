@@ -1,8 +1,8 @@
 
     body{
 background-image: url(images/dbz\ back.jpg) ;
-  background-repeat: repeat-y;
-  background-size: 1200px;
+  background-repeat: no-repeat;
+  background-size: 1500px;
 
     }
 h2{
@@ -142,7 +142,7 @@ a.info-box{
     text-align: center;
 }
 #gallery img {
-    width: 100px; 
+    width: 120px; 
     height: auto; 
     margin: 10px; 
     border: none; 
