@@ -142,7 +142,7 @@ a.info-box{
     text-align: center;
 }
 #gallery img {
-    width: 150px; 
+    width: 100px; 
     height: auto; 
     margin: 10px; 
     border: none; 
@@ -154,9 +154,9 @@ a.info-box{
     -o-transition: -webkit-transform 0.5s ease-in;
 }
 #gallery img:hover{
-    -moz-transform: scale(3);
-	-webkit-transform: scale(3);
-	-o-transform: scale(3);
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
 }
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
