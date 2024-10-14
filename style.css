@@ -1,7 +1,7 @@
 
     body{
 background-image: url(images/dbz\ back.jpg) ;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: 1500px;
 
     }
@@ -161,16 +161,16 @@ a.info-box{
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     #gallery img {
-        width: 100px; /* Smaller size for mobile */
+        width: 100px;
     }
 }
 
 @media (max-width: 480px) {
     #gallery img {
-        width: 60px; /* Even smaller size for very small screens */
+        width: 80px; /* 
     }
     
     #menu a {
-        font-size: 14px; /* Smaller font size for mobile */
+        font-size: 14px; 
     }
 }
