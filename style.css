@@ -160,13 +160,13 @@ a.info-box{
 }
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-    .gallery img {
+    #gallery img {
         width: 100px; /* Smaller size for mobile */
     }
 }
 
 @media (max-width: 480px) {
-    .gallery img {
+    #gallery img {
         width: 80px; /* Even smaller size for very small screens */
     }
     
