@@ -2,7 +2,7 @@
     body{
 background-image: url(images/dbz\ back.jpg) ;
   background-repeat: repeat-y;
-  background-size: cover;
+  background-size: 1200px;
 
     }
 h2{
@@ -167,7 +167,7 @@ a.info-box{
 
 @media (max-width: 480px) {
     #gallery img {
-        width: 80px; /* Even smaller size for very small screens */
+        width: 60px; /* Even smaller size for very small screens */
     }
     
     #menu a {
