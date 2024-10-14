@@ -1,5 +1,9 @@
-.gallery img{
-    width: 100% ;
+
+    body{
+background-image: url(images/dbz\ back.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
     }
 h2{
     text-align: center;
@@ -7,6 +11,38 @@ h2{
     color: black;
     font-style: italic;
     }
+    
+
+ #goku {
+        position: absolute;
+        left: 1010px;
+        top:100px;
+        }
+        #roshi {
+            position: absolute;
+            left: 380px;
+            top:450px;
+            }
+        #goten {
+             position: absolute;
+            left: 700px;
+            top:250px;
+                }
+        #picollo{
+                position: absolute;
+                left: 100px;
+                top:150px;
+                    }
+        #vegeta {
+               position: absolute;
+              left: 1000px;
+               top:480px;
+                        }
+        #trunks {
+             position: absolute;
+                 left: 430px;
+                top:100px;
+                            }        
 
 h4{
     font-family: Impact, fantasy;
@@ -42,3 +78,99 @@ h1{
 #menu a:hover{
     color:darkblue;
     }
+    /*==============MAIN===========*/
+
+#main{
+    margin-top       : 119px;
+    background       : url(images/map-blur.png);
+    background-repeat: repeat-y;
+}
+#content{
+    padding-top      : 1px;
+    padding-bottom   : 50px;
+}
+/*==============INFO BOX===========*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #572800;
+}
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+/*==============INFO BOX FULL===========*/
+    
+#info-box-full{
+      background-color : rgba(255, 255, 255, .8);
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
+}
+
+#info-box-full img{
+      width : 100%;
+} 
+#info-box-full h3{
+    text-align: center;
+}
+#gallery img {
+    width: 150px; 
+    height: auto; 
+    margin: 10px; 
+    border: none; 
+     }
+#gallery img{
+   
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition:-webkit-transform 0.5s ease-in ;
+    -o-transition: -webkit-transform 0.5s ease-in;
+}
+#gallery img:hover{
+    -moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .gallery img {
+        width: 100px; /* Smaller size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: 80px; /* Even smaller size for very small screens */
+    }
+    
+    #menu a {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+}
