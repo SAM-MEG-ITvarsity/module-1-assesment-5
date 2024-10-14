@@ -1,7 +1,7 @@
 
     body{
 background-image: url(images/dbz\ back.jpg) ;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
 
     }
